@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lingerie Store</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+    	<h1>Elegant Lingerie</h1>
+    	<nav>
+        	<a href="#">Home</a>
+        	<a href="#">Shop</a>
+        	<a href="#">Contact</a>
+    	</nav>
+	</header>
+
+	<section class="products">
+    	<h2>Our Collection</h2>
+    	<div class="product-grid">
+        	<div class="product">
+            	<img src="https://via.placeholder.com/200" alt="Lingerie Set">
+            	<h3>Silk Lingerie Set</h3>
+            	<p>$49.99</p>
+            	<button onclick="addToCart('Silk Lingerie Set', 49.99)">Add to Cart</button>
+        	</div>
+        	<div class="product">
+            	<img src="https://via.placeholder.com/200" alt="Lace Bra">
+            	<h3>Lace Bra</h3>
+            	<p>$29.99</p>
+            	<button onclick="addToCart('Lace Bra', 29.99)">Add to Cart</button>
+        	</div>
+    	</div>
+	</section>
+
+	<section class="cart">
+    	<h2>Your Cart</h2>
+    	<ul id="cart-items"></ul>
+    	<p>Total: $<span id="cart-total">0.00</span></p>
+	</section>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
