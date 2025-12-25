@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Role Mapping Guide</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h1, h2 { color: #2c3e50; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f4f4f4; }
+    .diagram { margin-top: 30px; }
+    ul, ol { margin-left: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Role Mapping Guide</h1>
+  <p>Role mapping is the process of defining job roles within an organization and linking them to specific skills, responsibilities, and goals. It ensures clarity, reduces confusion, and aligns employees’ work with company objectives.</p>
+
+  <h2>Why Role Mapping Matters</h2>
+  <ul>
+    <li>Aligns talent with business objectives</li>
+    <li>Improves hiring and training</li>
+    <li>Boosts productivity and reduces overlap</li>
+    <li>Supports succession planning</li>
+  </ul>
+
+  <h2>Steps to Create a Role Map</h2>
+  <ol>
+    <li>Define organizational goals</li>
+    <li>List all roles and responsibilities</li>
+    <li>Match roles to required skills</li>
+    <li>Check for gaps and overlaps</li>
+    <li>Update regularly</li>
+  </ol>
+
+  <h2>Sample Role Map Table</h2>
+  <table>
+    <tr><th>Role</th><th>Responsibilities</th><th>Required Skills</th></tr>
+    <tr><td>Project Manager</td><td>Manage timelines, budgets</td><td>Leadership, Communication</td></tr>
+    <tr><td>Developer</td><td>Build and maintain code</td><td>Programming, Problem-solving</td></tr>
+    <tr><td>QA Engineer</td><td>Test and ensure quality</td><td>Attention to detail, Testing</td></tr>
+  </table>
+
+  <div class="diagram">
+    <h2>Visual Role Map</h2>
+    <pre>
+    ```mermaid
+    graph TD
+        A[Organization Goals] --> B[Project Manager]
+        A --> C[Developer]
+        A --> D[QA Engineer]
+        B --> E[Leadership]
+        B --> F[Communication]
+        C --> G[Programming]
+        C --> H[Problem-solving]
+        D --> I[Testing]
+        D --> J[Attention to detail]
+    ```
+    </pre>
+  </div>
+
+  <h2>Downloadable Template</h2>
+  <p><a href="role-map-template.xlsx" download>Click here to download Excel Role Map Template</a></p>
+</body>
+</html>
